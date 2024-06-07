@@ -12,7 +12,7 @@ st.set_page_config(page_title="Health Assistant",
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Path to the model file
-ckd_model_path = os.path.join(working_dir, 'kidney.sav')
+ckd_model_path = os.path.join(working_dir, 'model.pickle')
 
 # Load the pre-trained model
 with open(ckd_model_path, 'rb') as model_file:
