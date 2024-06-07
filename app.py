@@ -132,7 +132,7 @@ if predict_btn:
     if y_pred == 1:
         st.error("The Patient has Chronic Kidney Disease (CKD).", icon='🩺')
     else:
-        st.balloons()
+      
         st.success("The Patient does not have Chronic Kidney Disease (CKD).", icon='🩺')
 
 
