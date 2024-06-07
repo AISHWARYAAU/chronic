@@ -96,7 +96,5 @@ if selected == 'Chronic kidney disease prediction':
 
     st.success(ckd_diagnosis)
     
-        except ValueError as ve:
-            st.error(f'Please enter valid numbers for all fields. ValueError: {ve}')
-        except Exception as e:
-            st.error(f'An error occurred: {str(e)}')
+        except ValueError as ve: st.error(f'Please enter valid numbers for all fields. ValueError: {ve}')
+        except Exception as e: st.error(f'An error occurred: {str(e)}')
